@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/contactos"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_width="75dp"
+            android:src="@drawable/usuario"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/name"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/phone"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/email"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLlamar"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:text="@string/llamar"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_width="75dp"
+            android:src="@drawable/usuario"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/name"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/phone"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/email"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLlamar1"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:text="@string/llamar"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_width="75dp"
+            android:src="@drawable/usuario"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/name"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/phone"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/email"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLlamar2"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:text="@string/llamar"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_width="75dp"
+            android:src="@drawable/usuario"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/name"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/phone"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/email"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLlamar3"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:text="@string/llamar"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_height="75dp"
+            android:layout_margin="10dp"
+            android:layout_width="75dp"
+            android:src="@drawable/usuario"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/name"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/phone"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/email"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLlamar4"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:text="@string/llamar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

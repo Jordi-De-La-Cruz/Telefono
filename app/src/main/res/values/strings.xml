@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Telefono</string>
+    <string name="name">José Diaz</string>
+    <string name="phone">987987987</string>
+    <string name="email">jose@gmail.com</string>
+    <string name="contactos">Contactos</string>
+    <string name="llamar">Llamar</string>
+</resources>
